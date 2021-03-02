@@ -9,7 +9,9 @@ app.get('/person', (req,res) => {
   })
 })
 
-app.listen(3000, () => {
+const port = process.env.PORT || 3000
+
+app.listen(port, () => {
   console.log("  App is running at port 3000")
   console.log("  Press CTRL-C to stop\n");
 })
