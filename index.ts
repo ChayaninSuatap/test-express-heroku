@@ -14,6 +14,7 @@ interface DB{
   persons: Array<Person>
 }
 
+
 // init database file
 const initialDb: DB = {
   persons: []
